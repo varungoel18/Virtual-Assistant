@@ -1,0 +1,32 @@
+/*Type your code here .. */
+async function respond(inputText) {
+	if (inputText == "Hi" || inputText == "Hello" || inputText == "hello" || inputText == "hi" || inputText == "HELLO" || inputText == "HI") {
+		Bot.send("Hello! I'm  automated Virtual Agent. It looks like you need assistance with.How can I help you? Select a type in your question below . Please input the number of query for further assistance ?");
+		Bot.send("1) Order not delivered ?");
+		Bot.send("2) Quality issues ?");
+		Bot.send("3) Product was late ?");
+		Bot.send("4) Packaging issues ?");
+		Bot.send("5) Price issues ?");
+	}
+	if (inputText == "1") {
+		Bot.send(" Sorry for the inconvinience . We are checking your order status . Please don't worry we will deliver you product soon.");
+		Bot.send("Thank You for your response");
+	}
+	if (inputText == "2") {
+		Bot.send("Sorry for the inconvinience . We will contact the restaurant for checking on their quality.");
+		Bot.send("Thank You for your response");
+	}
+	if (inputText == "3") {
+		Bot.send("Sorry for the inconvinience let us track your order and contact the delivery partner.");
+		Bot.send("Thank You for your response");
+	}
+	if (inputText == "4") {
+		Bot.send("Soory for the inconvience. We will contact the restaurant regarding your issue.");
+		Bot.send("Thank You for your response");
+	}
+	if (inputText == "5") {
+		Bot.send("Sorry for the inconvinience let us check your billing and contact you as soon as possible.");
+		Bot.send("Thank You for your response");
+	}
+
+}
